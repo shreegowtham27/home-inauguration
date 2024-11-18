@@ -24,10 +24,10 @@ export default function NavBar() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-green-700 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Venue Details</a></li>
-                            <li><a>Maps</a></li>
-                            <li><a>Send Your Wishes</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#venue">Venue Details</a></li>
+                            <li><a href="#maps">Maps</a></li>
+                            <li><a href="#contact">Send Your Wishes</a></li>
                         </ul>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import CountdownTimer from "./timer"
 
 export default function Hero(){
     return(
-        <div className="hero hero-bg min-h-screen">
+        <div id="#" className="hero hero-bg min-h-screen">
             {/* //bg-gradient-to-r from-emerald-500 to-emerald-900 */}
             <div className="hero-content text-center grid">
                 <div className="container text-4xl">

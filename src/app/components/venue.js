@@ -1,7 +1,7 @@
 
 const Venue = () => { 
     return (
-        <div style={{backgroundColor:"#00a360"}} className="p-12 flex flex-col text-center min-h-fit leading-8">
+        <div id="venue" style={{backgroundColor:"#00a360"}} className="p-12 flex flex-col text-center min-h-fit leading-8">
             <h2 className=" font-bold text-orange-200 text-7xl p-5">
                 🏡 <span className="bg-gradient-to-r from-lime-300 to-slate-400 bg-clip-text text-transparent font-black">Venue</span>
             </h2>

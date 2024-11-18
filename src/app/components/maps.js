@@ -11,7 +11,7 @@ const MapsComponent = () => {
         }
       }, []); 
   return (
-    <div style={{backgroundColor:"#4aa391"}} className="p-12 text-center">
+    <div id="maps" style={{backgroundColor:"#4aa391"}} className="p-12 text-center">
       <h2 className=" font-bold text-orange-200 text-7xl pt-5 pb-8">
         🌍 <span className="bg-gradient-to-r from-neutral-300 to-stone-400 bg-clip-text text-transparent font-black">Venue Assistance Here!</span>
       </h2>
