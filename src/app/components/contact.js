@@ -32,12 +32,20 @@ const ContactForm = () => {
     };
 
     return (
-        <div id="contact" className="py-12" style={{ backgroundColor: "#006f5f" }}>
-            <h2 className="text-center font-bold text-7xl py-5 pb-12">
-                ✨🏡 <span className="bg-gradient-to-r from-teal-400 to-yellow-200 bg-clip-text text-transparent">Share Your Warm Blessings...</span>
+        <div
+            id="contact"
+            className="py-12"
+            style={{ backgroundColor: "#006f5f" }}
+        >
+            <h2 className="text-center font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl py-5 pb-12">
+                ✨🏡{" "}
+                <span className="bg-gradient-to-r from-teal-400 to-yellow-200 bg-clip-text text-transparent">
+                    Share Your Warm Blessings...
+                </span>
             </h2>
-            <div className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-md p-8 py-18">
-                <form onSubmit={handleSubmit} className="space-y-4 p-5">
+            <div className="max-w-md sm:max-w-lg lg:max-w-2xl mx-auto p-6 sm:p-8 bg-white shadow-md rounded-md">
+                <form onSubmit={handleSubmit} className="space-y-4 p-4 sm:p-5">
+                    {/* Name Input */}
                     <div className="relative mb-6">
                         <label className="flex items-center mb-2 text-gray-600 text-sm font-medium">
                             Name
@@ -58,7 +66,7 @@ const ContactForm = () => {
                         <input
                             type="text"
                             name="name"
-                            className="block w-full h-11 px-5 py-2.5 leading-7 text-base font-normal shadow-xs text-gray-900 bg-transparent border border-gray-300 rounded-full placeholder-gray-400 focus:outline-none"
+                            className="block w-full h-11 px-5 py-2.5 leading-7 text-base font-normal shadow-xs text-gray-900 bg-transparent border border-gray-300 rounded-full placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                             placeholder="Name"
                             value={formData.name}
                             onChange={handleChange}
@@ -66,6 +74,7 @@ const ContactForm = () => {
                         />
                     </div>
 
+                    {/* Message Input */}
                     <div className="relative mb-6">
                         <label className="flex items-center mb-2 text-gray-600 text-sm font-medium">
                             Message
@@ -85,20 +94,24 @@ const ContactForm = () => {
                         </label>
                         <textarea
                             name="message"
-                            className="block w-full h-40 px-4 py-2.5 text-base leading-7 font-normal shadow-xs text-gray-900 bg-transparent border border-gray-300 rounded-2xl placeholder-gray-400 focus:outline-none resize-none"
+                            className="block w-full h-40 px-4 py-2.5 text-base leading-7 font-normal shadow-xs text-gray-900 bg-transparent border border-gray-300 rounded-2xl placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
                             placeholder="Write a message..."
                             value={formData.message}
                             onChange={handleChange}
                             required
                         />
                     </div>
+
+                    {/* Submit Button */}
                     <button
                         type="submit"
-                        className="w-full h-12 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 rounded-full shadow-xs text-white text-base font-semibold leading-6"
+                        className="w-full h-12 bg-indigo-600 hover:bg-indigo-800 transition-all duration-300 rounded-full shadow-xs text-white text-base font-semibold leading-6"
                     >
                         Send Message
                     </button>
                 </form>
+
+                {/* Status Message */}
                 {status && (
                     <p
                         className={`mt-4 text-center text-sm ${
