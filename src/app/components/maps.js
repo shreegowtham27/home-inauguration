@@ -31,18 +31,22 @@ const MapsComponent = () => {
             width: "100%",
             maxWidth: "600px",
             margin: "0 auto",
-            height: "300px",
+            height: "400px",
             boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
         }}
     >
         <iframe
             title="Google Maps"
-            src="https://maps.google.com/maps?width=500&amp;height=400&amp;hl=en&amp;q=11%C2%B016'51.6%22N%2076%C2%B059'17.7%22E+(Shree%20Bhavanam)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=500&amp;height=700&amp;hl=en&amp;q=11%C2%B016'51.6%22N%2076%C2%B059'17.7%22E+(Shree%20Bhavanam)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             style={{ border: "0", width: "100%", height: "100%" }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
+    </div>
+    <div className="flex flex-col py-5">
+        <a className="text-lg underline py-3" href="https://maps.app.goo.gl/Hz8JaRwcrW8FemHX8" target="_blank noopener">Click to Open Maps</a>
+        <a className="text-lg py-3" href="tel:+919677502587">Call : 9677502587</a>
     </div>
   </div>
   );

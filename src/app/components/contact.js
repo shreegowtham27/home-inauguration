@@ -107,7 +107,7 @@ const ContactForm = () => {
                         type="submit"
                         className="w-full h-12 bg-indigo-600 hover:bg-indigo-800 transition-all duration-300 rounded-full shadow-xs text-white text-base font-semibold leading-6"
                     >
-                        Send Message
+                        Shower Your Wish
                     </button>
                 </form>
 
