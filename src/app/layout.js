@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         name="format-detection"
         content="telephone=no, date=no, email=no, address=no"
       />
+      <link rel="icon" href="./favicon.ico" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-lato antialiased`}
       >
