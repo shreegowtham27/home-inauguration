@@ -3,13 +3,14 @@
 import React , {useEffect} from "react";
 
 const MapsComponent = () => {
-    useEffect(() => {
-        // Find the element with the class name "place-name"
-        const elements = document.getElementsByClassName("place-name");
-        if (elements.length > 0) {
-          elements[0].outerHTML = "Shree Bhavanam"; 
-        }
-      }, []); 
+  useEffect(() => {
+    // Wait until the DOM is loaded
+    const placeNameElement = document.querySelector(".place-name");
+    if (placeNameElement) {
+      // Replace content with your custom name
+      placeNameElement.textContent = "Custom Place Name";
+    }
+  }, []);
   return (
     <div
         id="maps"
