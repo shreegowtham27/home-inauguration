@@ -1,6 +1,6 @@
 export default function NavBar() {
     return(
-        <div className="navbar bg-lime-950">
+        <div className="navbar bg-lime-950 text-white">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="navbar-start grow flex items-center">
                     <a className="text-2xl sm:text-3xl lg:text-4xl font-black font-drSugi">

@@ -13,10 +13,10 @@ const Venue = () => {
                 <h3 className="text-3xl sm:text-4xl md:text-5xl font-lato font-black bg-gradient-to-r from-teal-400 to-yellow-200 bg-clip-text text-transparent my-4">
                     Shree Bhavanam
                 </h3>
-                <p className="text-base sm:text-lg md:text-xl leading-10 sm:leading-8 md:leading-9 ">MKK JS Avenue</p>
-                <p className="text-base sm:text-lg md:text-xl leading-10 sm:leading-8 md:leading-9 ">Then Thirupathi Naal Road,</p>
-                <p className="text-base sm:text-lg md:text-xl leading-10 sm:leading-8 md:leading-9 ">Jadayampalayam Po,</p>
-                <p className="text-base sm:text-lg md:text-xl leading-10 sm:leading-8 md:leading-9 ">Mettupalayam - 641 302</p>
+                <p className="text-base sm:text-lg md:text-xl leading-10 sm:leading-8 md:leading-9 text-white ">MKK JS Avenue</p>
+                <p className="text-base sm:text-lg md:text-xl leading-10 sm:leading-8 md:leading-9 text-white ">Then Thirupathi Naal Road,</p>
+                <p className="text-base sm:text-lg md:text-xl leading-10 sm:leading-8 md:leading-9 text-white ">Jadayampalayam Po,</p>
+                <p className="text-base sm:text-lg md:text-xl leading-10 sm:leading-8 md:leading-9 text-white ">Mettupalayam - 641 302</p>
             </div>
             <div className="flex flex-col">
                 <a className="text-lg underline py-3" href="https://maps.app.goo.gl/Hz8JaRwcrW8FemHX8" target="_blank noopener">Click to Open Maps</a>
